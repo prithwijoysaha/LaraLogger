@@ -1,8 +1,8 @@
 <?php
 
-namespace prithwijoysaha\LaraLogger;
+namespace prithwijoysaha\laralogger;
 
-use prithwijoysaha\LaraLogger\Models\ActivityLog;
+use prithwijoysaha\laralogger\Models\ActivityLog;
 use Exception;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Log;
