@@ -17,9 +17,9 @@ git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
 ```
 
 ## Usage 
-#### Step 1: RUN Command: ``` php artisan migrate```
-#### Step 2: Use It On Any Model: ``` use LaraLogger;```
-#### Step 3: Use It On Any Model: ``` use prithwijoysaha\laralogger\LaraLogger;```
+##### Step 1: RUN Command: ``` php artisan migrate```
+##### Step 2: Use It On Any Model: ``` use LaraLogger;```
+##### Step 3: Use It On Any Model: ``` use prithwijoysaha\laralogger\LaraLogger;```
 
 ## Example (Just Like) : Model\User.php
 ```php
