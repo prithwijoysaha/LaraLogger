@@ -1,8 +1,8 @@
 # LaraLogger - Track Users' Activity
 
-[![Issues](https://img.shields.io/github/issues/prithwijoysaha/LaraLogger?style=for-the-badge)](https://github.com/prithwijoysaha/LaraLogger/issues)
+[![Issues](https://img.shields.io/github/issues/prithwijoysaha/LaraLogger?style=flat-square)](https://github.com/prithwijoysaha/LaraLogger/issues)
 
-[![Stars](https://img.shields.io/github/stars/prithwijoysaha/LaraLogger?style=for-the-badge)](https://github.com/prithwijoysaha/LaraLogger/issues)
+[![Stars](https://img.shields.io/github/stars/prithwijoysaha/LaraLogger?style=flat-square)](https://github.com/prithwijoysaha/LaraLogger/issues)
 
 ## Installation
 
