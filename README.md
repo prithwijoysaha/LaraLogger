@@ -1,10 +1,8 @@
 # LaraLogger - Track Users' Activity
 
-## Budge 
+[![Issues](https://img.shields.io/github/issues/prithwijoysaha/LaraLogger?style=for-the-badge)](https://github.com/prithwijoysaha/LaraLogger/issues)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vendor_name/package_name.svg?style=flat-square)](https://packagist.org/packages/ps/LaraLogger)
-
-[![GitHub Tests Status](https://img.shields.io/github/workflow/status/vendor_name/package_name/Tests?label=Tests)](https://github.com/prithwijoysaha/LaraLogger/actions?query=workflow%3ATests+branch%3Amaster)
+[![Stars](https://img.shields.io/github/stars/prithwijoysaha/LaraLogger?style=for-the-badge)](https://github.com/prithwijoysaha/LaraLogger/issues)
 
 ## Installation
 
