@@ -1,4 +1,4 @@
-# Project Info
+# LaraLogger - Track Users' Activity
 
 ## Budge Goes Here
 
@@ -92,4 +92,3 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-# LaraLogger
