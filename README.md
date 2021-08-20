@@ -1,34 +1,10 @@
 # LaraLogger - Track Users' Activity
 
-## Budge Goes Here
+## Budge 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/vendor_name/package_name.svg?style=flat-square)](https://packagist.org/packages/ps/LaraLogger)
 
 [![GitHub Tests Status](https://img.shields.io/github/workflow/status/vendor_name/package_name/Tests?label=Tests)](https://github.com/prithwijoysaha/LaraLogger/actions?query=workflow%3ATests+branch%3Amaster)
-
-## Clone Package
-
-```bash
-git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
-```
-
-## Change After Clone
-
-1. composer.json
-2. README.md
-3. LICENCE.md
-4. CONTRIBUTING.md (sahaprithwijoy@gmail.com)
-5. CHANGELOG.md (ps/LaraLogger)
-6. SECURITY.md (sahaprithwijoy@gmail.com)
-7. FUNDING.md
-
-## After Changes
-
-1. composer install
-2. start writing code in src directory
-3. test your code in tests directory
-4. check hint from existing file
-5. just remove from here to top all lines till Clone Package after successfully clone and editing done
 
 ## Installation
 
@@ -36,6 +12,12 @@ You can install the package via composer:
 
 ```bash
 composer require prithwijoysaha/laralogger
+```
+
+## Clone Package
+
+```bash
+git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
 ```
 
 ## Usage 
