@@ -1,5 +1,5 @@
 {
-    "name": "ps/LaraLogger",
+    "name": "professorx/laralogger",
     "description": "laravel model activity logger package",
     "license": "MIT",
     "authors": [
