@@ -35,7 +35,7 @@ git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
 You can install the package via composer:
 
 ```bash
-composer require professorx/laralogger
+composer require prithwijoysaha/laralogger
 ```
 
 ## Usage 
