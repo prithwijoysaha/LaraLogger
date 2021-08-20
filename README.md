@@ -25,7 +25,7 @@ Step 3: Use It On Any Model: ```php use prithwijoysaha\laralogger\LaraLogger;```
 ```php
 namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use ps\LaraLogger\LaraLogger;
+use prithwijoysaha\LaraLogger\LaraLogger;
 
 class User extends Authenticatable
 {
