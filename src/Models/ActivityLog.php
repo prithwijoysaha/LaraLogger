@@ -1,6 +1,6 @@
 <?php
 
-namespace ps\LaraLogger\Models;
+namespace prithwijoysaha\laralogger\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
