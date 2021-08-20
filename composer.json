@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ps\\LaraLogger\\": "src"
+            "prithwijoysaha\\laralogger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ps\\LaraLogger\\Tests\\": "tests"
+            "prithwijoysaha\\laralogger\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -35,5 +35,12 @@
     "config": {
         "sort-packages": true
     },
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "prithwijoysaha\\laralogger\\LaraLoggerServiceProvider"
+            ]
+        }
+    }
 }
