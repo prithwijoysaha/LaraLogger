@@ -23,7 +23,7 @@ git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
 ## Usage 
 Step 1: RUN Command: ```bash php artisan migrate```
 Step 2: Use It On Any Model: ```php use LaraLogger;```
-Step 3: Use It On Any Model: ```php use ps\LaraLogger\LaraLogger;```
+Step 3: Use It On Any Model: ```php use prithwijoysaha\laralogger\LaraLogger;```
 
 ## Example (Just Like) : Model\User.php
 ```php
@@ -60,7 +60,7 @@ Thanks to geoplugin.net and ip-api.com
 ## Testing
 
 ```bash
-composer require ps/LaraLogger/Test
+composer require prithwijoysaha/laralogger/Test
 ```
 
 ## Changelog
