@@ -38,15 +38,13 @@ You can install the package via composer:
 composer require ps/LaraLogger
 ```
 
-## Usage (Just Like)
+## Usage 
+Step 1: RUN Command: ```bash php artisan migrate```
+Step 2: Use It On Any Model: ```php use LaraLogger;```
+Step 3: Use It On Any Model: ```php use ps\LaraLogger\LaraLogger;```
 
+## Example (Just Like) : Model\User.php
 ```php
-Step 1: RUN Command: php artisan migrate
-Step 2: Use On Any Model: use LaraLogger;
-Step 3: Use On Any Model: use ps\LaraLogger\LaraLogger;
-
-Example : Model\User.php
-------------------------
 namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use ps\LaraLogger\LaraLogger;
@@ -55,18 +53,19 @@ class User extends Authenticatable
 {
     use LaraLogger;
 }
-
-Customization:
---------------
+```
+## Customization:
 By default its uses the Auth()->id for userId to customize it just publish it.
 After publishing you will find a file named laralogger.php at config directory.
 
-Thing To Keep In Mind:
-----------------------
+## Thing To Keep In Mind:
+
 1. LaraLogger only works with DML queries of Laravel Eloquent
 Example:
+```php
 User::find(1)->delete();        // For this LaraLogger is made for.
 User::where('id',1)->delete();  // For this LaraLogger don't work.
+```
 2. LaraLogger will average execution time is 10ms approx.
 4. LaraLogger wont save the geo-location details and isp-details for localhost/127.0.0.1
 5. It can throw exceptions only in local environment. And save exceptions at log file for production environment for smoother experience.
@@ -74,7 +73,7 @@ User::where('id',1)->delete();  // For this LaraLogger don't work.
 => www.geoplugin.net
 => www.ip-api.com
 Thanks to geoplugin.net and ip-api.com
-```
+
 
 ## Testing
 
