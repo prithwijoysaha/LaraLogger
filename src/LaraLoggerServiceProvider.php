@@ -1,6 +1,6 @@
 <?php
 
-namespace ps\LaraLogger;
+namespace prithwijoysaha\laralogger;
 
 use Illuminate\Support\ServiceProvider;
 
