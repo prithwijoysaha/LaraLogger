@@ -1,0 +1,39 @@
+{
+    "name": "ps/LaraLogger",
+    "description": "laravel model activity logger package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prithwijoy Saha",
+            "email": "sahaprithwijoy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ps\\LaraLogger\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ps\\LaraLogger\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor\\bin\\phpunit",
+        "phpunit": "vendor/bin/phpunit",
+        "coverage-test": "vendor\\bin\\phpunit --coverage-html /test-reports/coverage",
+        "format": "vendor\\bin\\php-cs-fixer fix"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
