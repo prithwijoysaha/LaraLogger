@@ -1,6 +1,6 @@
 <?php
 
-namespace prithwijoysaha\laralogger;
+namespace cavespoidy\laralogger;
 
 use Illuminate\Support\ServiceProvider;
 
