@@ -1,5 +1,5 @@
 {
-    "name": "prithwijoysaha/laralogger",
+    "name": "cavespoidy/laralogger",
     "description": "laravel model activity logger package",
     "license": "MIT",
     "authors": [
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "prithwijoysaha\\laralogger\\": "src"
+            "cavespoidy\\laralogger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "prithwijoysaha\\laralogger\\Tests\\": "tests"
+            "cavespoidy\\laralogger\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "prithwijoysaha\\laralogger\\LaraLoggerServiceProvider"
+                "cavespoidy\\laralogger\\LaraLoggerServiceProvider"
             ]
         }
     }
