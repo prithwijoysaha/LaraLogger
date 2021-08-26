@@ -1,6 +1,6 @@
 <?php
 
-namespace prithwijoysaha\laralogger\LaraLogger;
+namespace cavespoidy\laralogger\LaraLogger;
 
 use Illuminate\Support\ServiceProvider;
 
