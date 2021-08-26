@@ -7,7 +7,7 @@
 You can install the package via composer:
 
 ```bash
-composer require prithwijoysaha/laralogger
+composer require cavespoidy/laralogger
 ```
 
 ## Clone Package
@@ -19,13 +19,13 @@ git clone https://github.com/prithwijoysaha/LaraLogger LaraLogger
 ## Usage 
 ##### Step 1: RUN Command: ``` php artisan migrate```
 ##### Step 2: Use It On Any Model: ``` use LaraLogger;```
-##### Step 3: Use It On Any Model: ``` use prithwijoysaha\laralogger\LaraLogger;```
+##### Step 3: Use It On Any Model: ``` use cavespoidy\laralogger\LaraLogger;```
 
 ## Example (Just Like) : Model\User.php
 ```php
 namespace App\Models;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use prithwijoysaha\LaraLogger\LaraLogger;
+use cavespoidy\LaraLogger\LaraLogger;
 
 class User extends Authenticatable
 {
@@ -56,7 +56,7 @@ Thanks to geoplugin.net and ip-api.com
 ## Testing
 
 ```bash
-composer require prithwijoysaha/laralogger/Test
+composer require cavespoidy/laralogger/Test
 ```
 
 ## Changelog
