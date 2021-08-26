@@ -1,8 +1,8 @@
 <?php
 
-namespace prithwijoysaha\laralogger;
+namespace cavespoidy\laralogger;
 
-use prithwijoysaha\laralogger\Models\ActivityLog;
+use cavespoidy\laralogger\Models\ActivityLog;
 use Exception;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Log;
